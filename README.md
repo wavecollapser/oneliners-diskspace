@@ -22,3 +22,11 @@ root@ns1:~# df -Pl|sed -rn -e "s/^([-a-zA-Z0-9_/.:]+).* ([0-9.,]+)\%.* ([a-zA-Z0
 /wwwroot        /dev/vdb1       93%
 
 neat format output + mailing... all in a oneliner with sed, one tool to rule them all :)
+
+if only sed would support perl-like regex.. newer regex, but guess one cannot have it all..
+I won't put perl in my crontab -e yet ;)
+
+python would be more portable than the above line, but not necessarily better
+sed line is cooler, faster too probably?
+
+portability is impossible anyway, but oneliners and one tool is best.
